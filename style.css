@@ -226,3 +226,9 @@ p {
 .bottom-container p {
     width: 90%
 }
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
