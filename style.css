@@ -18,6 +18,24 @@
     text-align: center;
 }
 
+.name-container a {
+    text-decoration: none;
+}
+
+.linkedin-link {
+    color: blue;
+}
+
+
+.github-link {
+    color: green;
+}
+
+
+.tableau-link {
+    color: red;
+}
+
 .info-container {
     display: flex;
     align-items: flex-start;
@@ -124,13 +142,21 @@ p {
 }
 
 .top-container img {
-    width: 100%;
-    max-width: 500px;
+    width: 75%;
 }
 
 .bottom-container img {
-    width: 100%;
-    max-width: 500px;
-    height: 100%;
-    max-height: 500px;
+    width: 75%;
+}
+
+.top-container a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bottom-container a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
 }
