@@ -55,6 +55,12 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 500px){
+    .info-container {
+        flex-direction: column;
+    }
+}
+
 .skills-container {
     display: flex;
     flex-direction: column;
@@ -85,6 +91,12 @@ ul {
 
 .about-me-container {
     width: 40%;
+}
+
+@media (max-width: 500px){
+    .about-me-container {
+        width: 100%;
+    }
 }
 
 .about-me-container h2,
