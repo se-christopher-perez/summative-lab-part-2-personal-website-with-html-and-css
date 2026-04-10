@@ -58,7 +58,12 @@
     margin-top: 10px;
 }
 
-.project-containers h1 {
+.project-containers {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-header {
     text-align: center;
 }
 
@@ -87,4 +92,14 @@
 
 .highlighted-project-container p {
     width: 90%;
+}
+
+.more-project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.data-projects-contaioner {
+    width: 70%;
 }
