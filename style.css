@@ -100,7 +100,7 @@ p {
 }
 
 .highlighted-project-container img {
-    width: 50%;
+    width: 75%;
 }
 
 .highlighted-project-container a {
@@ -145,10 +145,12 @@ p {
 
 .top-container img {
     width: 70%;
+    height: 300px;
 }
 
 .bottom-container img {
     width: 70%;
+    height: 300px;
 }
 
 .top-container a {
