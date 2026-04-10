@@ -1,4 +1,3 @@
-
 .header-container {
     display: flex;
     align-items: center;
@@ -45,7 +44,8 @@
     align-items: center
 }
 
-.t-skills-container h2, ul {
+.t-skills-container h2,
+ul {
     margin-top: 10px;
 }
 
@@ -54,7 +54,8 @@
     font-size: 20px;
 }
 
-.about-me-container h2, p {
+.about-me-container h2,
+p {
     margin-top: 10px;
 }
 
@@ -100,6 +101,36 @@
     align-items: left;
 }
 
-.data-projects-contaioner {
+.data-projects-container {
     width: 70%;
+}
+
+.square-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+.top-container img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.bottom-container img {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 500px;
 }
