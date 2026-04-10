@@ -4,7 +4,6 @@
     width: 100%;
 }
 
-
 .header-container img {
     width: 15%;
     height: 10%;
@@ -16,6 +15,7 @@
     align-items: center;
     flex-grow: 1;
     text-align: center;
+    background-color: aqua;
 }
 
 .name-container a {
@@ -91,6 +91,7 @@ p {
     flex-direction: column;
     width: 30%;
     padding: 25px;
+    background-color: greenyellow;
 }
 
 .highlighted-project-container {
@@ -120,7 +121,7 @@ p {
 }
 
 .data-projects-container {
-    width: 70%;
+    width: 100%;
 }
 
 .square-container {
@@ -131,22 +132,23 @@ p {
 .top-container {
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    background-color: blueviolet;
+    padding: 25px;
 }
 
 .bottom-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 5%;
+    background-color: skyblue;
+    padding: 25px;
 }
 
 .top-container img {
-    width: 75%;
+    width: 70%;
 }
 
 .bottom-container img {
-    width: 75%;
+    width: 70%;
 }
 
 .top-container a {
@@ -159,4 +161,12 @@ p {
     font-size: 25px;
     font-weight: bold;
     text-decoration: none;
+}
+
+.top-container p {
+    width: 90%
+}
+
+.bottom-container p {
+    width: 90%
 }
