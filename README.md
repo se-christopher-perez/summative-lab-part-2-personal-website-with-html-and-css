@@ -28,3 +28,8 @@ Concepts
 - Grid Layout
 - Links
 - Tags
+
+Future updates:
+- Better Layout
+- Flex mastery 
+- update to different sizes and screens
