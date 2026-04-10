@@ -58,6 +58,33 @@
     margin-top: 10px;
 }
 
-.project-containers h2 {
+.project-containers h1 {
     text-align: center;
+}
+
+.displayed-projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 25px;
+}
+
+.highlighted-project-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.highlighted-project-container img {
+    width: 50%;
+}
+
+.highlighted-project-container a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
+}
+
+.highlighted-project-container p {
+    width: 90%;
 }
