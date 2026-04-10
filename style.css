@@ -11,3 +11,53 @@
     height: 10%;
 }
 
+.name-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 30%;
+    font-size: 20px;
+}
+
+.t-skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.languages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.t-skills-container h2, ul {
+    margin-top: 10px;
+}
+
+.about-me-container {
+    width: 70%;
+    font-size: 20px;
+}
+
+.about-me-container h2, p {
+    margin-top: 10px;
+}
+
+.project-containers h2 {
+    text-align: center;
+}
