@@ -1,4 +1,13 @@
 
-.name-container{
-    text-align: center;
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
+
+
+.header-container img {
+    width: 15%;
+    height: 10%;
+}
+
